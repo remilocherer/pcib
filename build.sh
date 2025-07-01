@@ -29,7 +29,7 @@ dhcp-interface=vio0
 
 plugin=base/raw-image-file
 image-basename=openstack-openbsd${version}
-image-size=2
+image-size=3
 
 plugin=partitioner/disklabel
 plugin=package/cloud-init
